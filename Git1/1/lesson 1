@@ -1,0 +1,52 @@
+# int = 123 #изменяемые или нет
+# string = 'asdf' #методы работы с этими типам
+# bool = True
+# float = 1.23
+#
+# list = [1,2,3] - изменяемый, индексование,
+# tuple = (1,2,3)
+# set = {1,2,3}
+# dict = {'key': 'value'}
+
+# list = ['a', 'b', 'c', 'd', 123, 423, 555]
+# new_list = list
+# print(id(new_list))
+# print(id(list))
+# new_list.append('123sfd')
+# print(list)
+
+# def delete_int_from_list(list):
+#     new_list = []
+#     for item in list:
+#         if not str(item).isdigit():
+#             new_list.append(item)
+#     return new_list
+#
+# print(delete_int_from_list(list))
+
+# for i in range(len(list)): проходит по индексу в длине списка
+# for item in list: проходит по итемам в списке
+# for i,item in enumerate(list): проходит по индексу и итему в списке
+
+# прочитать про цикл while
+# while True:
+#     print('true')
+# i=0
+# while i <5:
+#     print(i)
+#     i+=1 #i=i+1
+
+# for i in range(5):
+#     print(i)
+#
+# i = 0
+# while i<len(list):
+#     print(list[i])
+#     i+=1
+#тоже самое ->
+# for item in list:
+#     print(item)
+
+# сортировка цифр из списка -> сортированный список интов
+# сортировка строк из списка -> сортированный список строк
+# обьединение списков
